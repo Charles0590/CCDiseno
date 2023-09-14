@@ -1,2 +1,725 @@
-# CCDiseno
-Portafolio
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carlos Cruz - Portafolio de Diseño" />
+	<meta name="keywords" content="diseñador, diseño editorial, creativo, portafolio" />
+	<meta name="author" content="Carlos Cruz" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CarlosCruz - Diseñador Grafico y Animador Digital</title>
+  <!--favicon-img--> 
+   <link rel="icon" type="image/png" href="images/logo-CARCRU.ico">
+   <!--favicon-img-->
+   <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+<body>
+    <!--contains all the div-->
+    <div id="all">
+    <!--mouse  follower-->
+        <div class="cursor"></div>
+    <!--mouse  follower-->
+    <!--loader-->
+        <div id="loader">
+            <span class="color">Carlos</span>Cruz 
+        </div>
+    <!--loader-end-->
+    <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+    <!--link-screen-->
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="../documentations/assets/logo-CARCRU-white.png" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="Inicio" id="home-link" >Inicio</a>
+                <a href="#" data-text="Sobre mi" id="about-link" >Sobre mi</a>
+                <a href="#" data-text="Experiencia" id="blog-link" >Experiencia</a>
+                <a href="#" data-text="Portafolio" id="portfolio-link" >Portafolio</a>
+                <a href="#" data-text="Contacto" id="contact-link" >Contacto</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+          <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img src="../documentations/assets/logo-CARCRU-white.png" alt="logo">
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+          <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+            <div class="header-content">
+                <div class="header-content-box">
+                <div class="firstline"><span class="color">Carlos </span>Cruz</div>
+                <div class="secondline">
+                Soy
+            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Diseñador.", " Animador.", " Mercadólogo." ]'></span>
+            <span class="slash">|</span>
+        </div>
+                    <div class="contact">
+                <a href="Mailto:carloscg9367@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
+                <a href="Tel:5550729178"><img src="images/call.png" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                    </div>    
+            </div>
+            </div>
+            <!--header image-->
+            <div class="header-image">
+            <img src="images/charles.png" alt="logo">
+            </div>
+            <!--header image end-->
+        </div>
+           <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    Sobre <span class="color">Mi</span>
+                    <span class ="header-caption">Conoce <span class="color"> más.</span></span>
+                </div>
+                <div class="about-main">
+            <div class="about-first-paragraph wow">
+            <!--about description-->
+               <span class="about-first-line">
+                    Un creativo 
+                    <span class="color">diseñador gráfico</span>
+                     de la Ciudad de México </span>
+                     <br>
+               <span class="about-second-line"> Con 8 años de experiencia como diseñador gráfico profesional, Eh adquirido las habilidades y conocimientos necesarios para hacer que tu proyecto sea un éxito. Disfruto cada fase del diseño en el que tengo la oportunidad de trabajar.</span>
+               <div class="cv">
+                <a href="images/CV_2023.pdf"><button>Ver <span class="colors">CV</span></button></a>
+            </div>
+            </div>
+            <!--about picture-->
+            <div class="about-img">
+                <img src="images/portada_2.jpeg" alt="Your Image" style="width: auto">
+            </div>
+            </div>
+    
+            </div>
+            <!--services start-->
+            <div id="services">
+                <div class="color-changer">
+                    <div class="color-panel">
+                        <img src="images/gear.png" alt="">
+                    </div>
+                    <div class="color-selector">
+                        <div class="heading">Custom Colors</div>
+                        <div class="colors">
+                            <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+            <!--services header-->
+                    <div class="services-heading wow">
+                        <span class="color">Mis</span> Servicios
+                    </div>
+            <!--services header end-->
+            <!--services content-->
+                    <div class="services-content">
+                           <div class="service-one service wow">
+                               <div class="service-img">
+                               <img src="images/coding.png" alt="service-one">
+                               </div>
+                               <div class="service-description">
+                                <h2>Maquetación Web</h2>
+                                <p>Desde adobe muse, adobe XD y una certificación en adobe Dreamweaver CS5, si puedes imaginarlo, puedo maquetarlo</p>
+                               </div>
+                           </div>
+                           <div class="service-two service wow">
+                               <div class="service-img">
+                               <img src="images/instagram.png" alt="service-two">
+                               </div>
+                               <div class="service-description">
+                                <h2>Redes Sociales</h2>
+                                <p>La imagén juega un papel fundamental en la atracción de vistas, una red social visual es un gran logro que esta al alcance de mi mano</p>
+                               </div>
+                           </div>
+                           <div class="service-three service wow">
+                            <div class="service-img">
+                               <img src="images/bulb.png" alt="service-three">
+                            </div>
+                            <div class="service-description">
+                                <h2>Diseños Creativos</h2>
+                                <p>No importa si hay que seguir una línea, siempre busco la fomra de convertir esta línea en una curva creativa atractiva para mis clientes y sus clientes</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--services content end-->
+            <!--services end-->
+            <div id="skills">
+                <div class="skills-header">
+                     Mis <span class="color"> Habilidades</span>
+                </div>
+                <div class="skills-content " style="text-align: center;">
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        In Design
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="html-progress wow">95%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                      Photoshop
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="js-progress wow">89%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Premiere
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="adobe-progress wow">80%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Muse
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="php-progress wow">85%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Illustrator
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="jquery-progress wow">95%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Dreamweaver
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="seo-progress wow">85%</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+             <div class="footer-text">
+                 <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Carlos Cruz
+             </div>
+            </div>
+    <!--copyright-section-->
+        </div>
+        <!--about end-->
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            <div class="portfolio-header"> <span class="color"> Mi </span> Portafolio
+            <span class ="header-caption"> La <span class="color"> Ejecución</span></span></div>
+             <div id="portfolio-content">
+                 <div class="portfolio portfolio-first">
+                     <div class="portfolio-image">
+					    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+						   <ol class="carousel-indicators">
+						     <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+						     <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+						     <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+					      </ol>
+						   <div class="carousel-inner" role="listbox">
+						     <div class="carousel-item active"> <img class="d-block mx-auto" style="width: auto" src="images/fotos/20220216_134845.jpg" alt="Paisaje">
+						       <div class="carousel-caption">
+						         <h5>Fotografía de paisaje</h5>
+						         <p>Toma con equipo móvil</p>
+					           </div>
+					         </div>
+						     <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/fotos/20220217_175544.jpg" alt="Paisaje 2">
+						       <div class="carousel-caption">
+						         <h5>Fotogafía de paisaje</h5>
+						         <p>Toma con equipo móvil</p>
+					           </div>
+					         </div>
+						     <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/fotos/dama.jpeg" alt="La Dama">
+						       <div class="carousel-caption">
+						         <h5>La Dama</h5>
+						         <p>Fotografía equipo reflex</p>
+					           </div>
+					         </div>
+							   <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/fotos/flor_1.jpg" alt="La flor">
+						       <div class="carousel-caption">
+						         <h5>La Flor</h5>
+						         <p>Fotografía equipo reflex</p>
+					           </div>
+					         </div>
+							   <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/fotos/gnomo.jpg" alt="El Gnomo">
+						       <div class="carousel-caption">
+						         <h5>El Gnomo</h5>
+						         <p>Fotografía equipo reflex</p>
+					           </div>
+					         </div>
+							   <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/fotos/luz.jpg" alt="Luz">
+						       <div class="carousel-caption">
+						         <h5>Luz</h5>
+						         <p>Fotografía equipo reflex</p>
+					           </div>
+					         </div>
+							   <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/fotos/moto.jpg" alt="La Moto">
+						       <div class="carousel-caption">
+						         <h5>El paso del tiempo</h5>
+						         <p>Fotografía equipo reflex</p>
+					           </div>
+					         </div>
+							   <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/fotos/playa_1.jpg" alt="La Playa">
+						       <div class="carousel-caption">
+						         <h5>Fotografía de paisaje</h5>
+						         <p>Fotografía equipo reflex</p>
+					           </div>
+					         </div>
+							    <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/GAMERGY/_MG_2430.jpg" alt="La Copa">
+						       <div class="carousel-caption">
+						         <h5>La Copa</h5>
+						         <p>Cobertura de evento de e-sports</p>
+					           </div>
+					         </div>
+					      </div>
+						   <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+                     </div>
+                     <div class="portfolio-text">
+                         <h2>Fotografía</h2>
+                         <p>Una pequeña muestra de mivisión del mundo desde la lente de mi cámara, percibe el mundo a través de mis ojos.</p>
+                     </div>
+                 </div>
+                 <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                      <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" style="background-color: grey">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"> <img class="d-block mx-auto" style="width: auto" src="images/Ilustraciones/IRON.jpg" alt="Iron Man">
+                              <div class="carousel-caption">
+                                <h5>Prueba de ilustración</h5>
+                                <p>Original Scottie Young</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/Ilustraciones/jinx.jpg" alt="Jinx">
+                              <div class="carousel-caption">
+                                <h5>Prueba de ilustración</h5>
+                                <p>Original desconocido</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/Ilustraciones/IMG_0373.JPG" alt="Thresh">
+                              <div class="carousel-caption">
+                                <h5>Prueba de ilustración</h5>
+                                <p>Artista desconocido</p>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Ilustración</h2>
+                        <p>Bienvenido a un mundo de creatividad e interpretación, mis ilustraciones son como interpreto el mundo, BIENVENIDO A MI MUNDO.</p>
+                    </div>
+                </div>
+             
+                <div class="portfolio portfolio-third">
+                    <div class="portfolio-image">
+                      <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" style="background-color: grey">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"> <img class="d-block mx-auto" style="width: auto" src="images/JPG_editorial/BAUART.jpg" alt="Bauart">
+                              <div class="carousel-caption">
+                                <h5>Diseño Editorial</h5>
+                                <p>Editorial EA</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/JPG_editorial/SHERWIN.jpg" alt="Sherwin">
+                              <div class="carousel-caption">
+                                <h5>Diseño Sherwin Williams</h5>
+                                <p>Editorial EA</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/JPG_editorial/Overwatch.jpg" alt="Overwatch">
+                              <div class="carousel-caption">
+                                <h5>Diseño para La Crónica de Hoy</h5>
+                                <p>Versión impresa</p>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Diseño Editorial</h2>
+                        <p>Uno de los rubros en los cuales me especializo, la formación de textos para impresión.</p>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+					  <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel" style="background-color: grey">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+					    </ol>
+						  <div class="carousel-inner" role="listbox">
+						    <div class="carousel-item active"> <img class="d-block mx-auto" style="width: auto" src="images/JPG_editorial/infografia_mario.jpg" alt="Mar10">
+						      <div class="carousel-caption">
+						        <h5>Propuesta de infografía</h5>
+						        <p>Dia de Mar10</p>
+					          </div>
+					        </div>
+						    <div class="carousel-item"> <img class="d-block mx-auto" style="width: auto" src="images/JPG_editorial/info_kate.jpg" alt="Kate">
+						      <div class="carousel-caption">
+						        <h5>Propuesta de infografía</h5>
+						        <p>Luna</p>
+					          </div>
+					        </div>
+					    </div>
+						  <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Infografías</h2>
+                        <p>Una de las maneras más faciles de explicar situaciones complicadas o festejos relevantes por medio de la union de gráficos y textos condensados.</p>
+                    </div>
+                </div>
+                 </div>
+                    <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" style="width: auto" class="images" height="14px"> Carlos Cruz
+                </div>
+               </div>
+       <!--copyright-section-->
+             </div>
+        <!--portfolio end-->
+        <!--blog-->
+        <div id="blog">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+        <div class="blog-header"> Experiencia</span>
+            <span class ="header-caption"> Mi más reciente <span class="color"> experiencia.</span></span></div>
+            <div class="blog-content">
+                 <div class="blogs">
+                     <a href="#">
+                     <div class="img">
+                        <img src="images/post-one.jpeg" alt="blog-one">
+                        <div class="blog-date">2017 a 2019</div>
+                     </div>
+                     <div class="blog-text">
+                         <h3>La Crónica de Hoy</h3>
+                         <p>Experiencia editorial desde la recepción de materiales promocionales hasta la correción de color y formación de páginas para su impresión y publicación</p>
+                     </div></a>
+                 </div>      
+                 <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-two.jpeg" alt="blog-two">
+                        <div class="blog-date">2019 a 2020</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>La Crónica de Hoy</h3>
+                        <p>Último periodo de experiencia para esta casa editorial, tomando parte como impresor (recepción de páginas formadas), formación para la impresión, revisión de color en pie de máquina</p>
+                    </div></a>
+                </div>      
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-three.jpeg" alt="blog-three">
+                        <div class="blog-date">2021 a 2022</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Editorial EA</h3>
+                        <p>Formación de suplementos impresos, correción de color y revisión de pruebas de color</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-four.jpeg" alt="blog-four">
+                        <div class="blog-date">2022 a 2023</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Prematecnía</h3>
+                        <p>Adaptación y/o creación de manuales de usuario para equipos de seguridad en la industria</p>
+                    </div></a>
+                </div>  
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-five.jpeg" alt="blog-five">
+                        <div class="blog-date">Mundial Qatar 2022 a Torneo clausura 2023</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Sports Business Team</h3>
+                        <p>Creación de materiales promocionales, redes sociales y estrategias de marketing enfocadas al deporte</p>
+                    </div></a>
+                </div>  
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-six.jpeg" alt="blog-six">
+                        <div class="blog-date">Marzo 2023 a Junio 2023</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>El Universal</h3>
+                        <p>Apoyar al equipo creativo de "Aviso Oportuno" para la creación de materiales para anunciantes</p>
+                    </div></a>
+                </div>        
+            </div>
+               <!--copyright-section You Can Remove After Downloading-->
+               <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Carlos Cruz
+                </div>
+               </div>
+       <!--copyright-section-->
+        </div>
+        <!--blog end-->
+        <!--contact-->
+     <div id="contact">
+        <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+         <div class="contact-header">Contacto <span class="color"> Directo</span>
+        <div class="contact-header-caption"> <span class="color"> Trabajemos</span> juntos.</div></div>
+        <div class="contact-content">
+             </div>
+            <!--Contact form-->
+            <!--Contact information-->
+             <div class="contact-info">
+                <div class="contact-info-header">
+                    Información de contacto
+                </div>
+                <div class="contact-info-content">
+                <div class="contect-info-content-line">
+                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                    <div class="contact-info-icon-text">
+                        <h6>Nombre</h6>
+                        <p>Carlos Cruz</p>
+                  </div>
+                </div>
+                <div class="contect-info-content-line">
+                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Ubicación</h6>
+                      <p>CDMX, México</p>
+                </div>
+              </div>
+              <div class="contect-info-content-line">
+                  <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Teléfono</h6>
+                      <p>5550729178</p>
+                </div>
+              </div>
+              
+              <div class="contect-info-content-line">
+                  <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>E-mail</h6>
+                      <p>carloscg9367@gmail.com</p>
+                </div>
+              </div>
+                </div>
+            <!--Contact information end-->
+           </div>
+        </div>
+                    <!--copyright-section You Can Remove After Downloading-->
+                    <div class="footer">
+                        <div class="footer-text">
+                            <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Carlos Cruz
+                        </div>
+                       </div>
+               <!--copyright-section-->
+     </div>
+        <!--contact end-->
+    </div>
+    <!--all the divisions-->
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+<script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+    
+    <!--particles script-->
+    <script>
+ particlesJS("particles", {"particles":{"number":{"value":120,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":true,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":true,"speed":0,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.24463576890600452,"width":1.2626362266116362},"move":{"enable":true,"speed":3,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+</script>
+</body>
+</html>
